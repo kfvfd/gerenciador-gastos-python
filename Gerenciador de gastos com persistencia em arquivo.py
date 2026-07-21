@@ -41,7 +41,7 @@ while True:
 
         arquivo=open("gastos.txt", "a")
 
-        arquivo.write(f"{descricao},{categoria}.{valor}\n")
+        arquivo.write(f"{descricao},{categoria},{valor}\n")
         arquivo.close()
 
 
